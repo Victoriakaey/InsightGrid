@@ -71,3 +71,29 @@ export const indicatorCardItems = [
     data: "7.03%",
   },
 ];
+
+export const categoryItems = [
+  {
+    id: 1,
+    variables: ["Carbon 1", "Co2 Distribution", "Fleet sizing"],
+  },
+  {
+    id: 2,
+    variables: [
+      "Parking Rate",
+      "Border Rate",
+      "Request rate",
+      "Variable 1",
+      "Variable 1",
+      "Variable 1",
+    ],
+  },
+  {
+    id: 3,
+    variables: ["Variable 1", "Variable 1", "Variable 1"],
+  },
+];
+
+// hardcoded only for demo purposes, if more data, then each element from the variables list in categoryItems should have a corresponding description
+export const hoverDescription =
+  "But what truly sets Switch apart is its versatility. It can be used as a scooter, a bike, or even a skateboard, making it suitable for people of all ages. Whether you're a student, a professional, or a senior citizen, Switch adapts to your needs and lifestyle.";
