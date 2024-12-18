@@ -1,7 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import { BsLightningFill } from "react-icons/bs";
-import Drawer from "../drawer";
+import Drawer from "../../drawer";
+import Content from "./content";
 
 export default function EditVariablesDrawer() {
   const [isDrawerOpen, setDrawerOpen] = useState(false);
@@ -17,7 +18,7 @@ export default function EditVariablesDrawer() {
         onClose={() => setDrawerOpen(false)}
         title="Edit Variables"
       >
-        <div className="px-2 border border-white">hi</div>
+        <Content />
       </Drawer>
     </div>
   );

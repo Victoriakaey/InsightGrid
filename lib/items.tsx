@@ -6,7 +6,7 @@ import { IoIosCloudUpload, IoMdSettings } from "react-icons/io";
 import { BsLightningFill } from "react-icons/bs";
 import { MdHistory } from "react-icons/md";
 import { LuUpload } from "react-icons/lu";
-import EditVariablesDrawer from "@/app/components/dashboard/editVariablesDrawer";
+import EditVariablesDrawer from "@/app/components/dashboard/editVariables/editVariableDrawer";
 
 export const sidebarItems = [
   { id: "menu", icon: <RxHamburgerMenu /> },

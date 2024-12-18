@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { navbarItems } from "@/lib/items";
-import Searchbox from "./searchbox";
+import { FaSearch } from "react-icons/fa";
 
 export default function Navbar() {
   const [active, setActive] = useState<string>("charging-stations");
@@ -24,7 +24,13 @@ export default function Navbar() {
           </button>
         ))}
       </div>
-      <Searchbox />
+      <div className="flex gap-3 border border-buttonBorder text-gray-300 rounded-lg w-64 py-2 px-3">
+        <FaSearch className="mt-1" />
+        <input
+          placeholder="Search"
+          className="bg-black/95 outline-none"
+        ></input>
+      </div>
     </div>
   );
 }
