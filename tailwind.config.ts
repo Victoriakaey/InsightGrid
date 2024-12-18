@@ -16,6 +16,7 @@ export default {
         buttonBorder: "#525252",
         dashboardButtonBg: "#242424",
         dashboardButtonBorder: "#5A5A5A",
+        dashboardGraphText: "#AAA",
       },
     },
   },
