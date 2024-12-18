@@ -43,3 +43,30 @@ export const bestScenarioResultsItems = [
       "The best found configuration based on satisfied demand is characterized by 11 zones (max) with charging stations and 48 total number of poles.",
   },
 ];
+
+export const indicatorCardItems = [
+  {
+    id: 1,
+    title: "Infrastructure Units",
+    description: "This describes variable two and what the shown data means.",
+    data: "€421.07",
+  },
+  {
+    id: 2,
+    title: "Charging Growth",
+    description: "This describes variable two and what the shown data means.",
+    data: "33.07",
+  },
+  {
+    id: 3,
+    title: "Localization change",
+    description: "This describes variable two and what the shown data means.",
+    data: "21.9%",
+  },
+  {
+    id: 4,
+    title: "Fleet growth",
+    description: "This describes variable two and what the shown data means.",
+    data: "7.03%",
+  },
+];

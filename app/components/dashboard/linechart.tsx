@@ -2,8 +2,6 @@
 import React from "react";
 import ReactECharts from "echarts-for-react";
 import { generateFakeChartData } from "@/lib/helperFunctions";
-import { BsQuestionCircle } from "react-icons/bs";
-import { IoArrowUpCircleOutline } from "react-icons/io5";
 
 export default function LineChart() {
   const { months, values } = generateFakeChartData();
@@ -16,8 +14,8 @@ export default function LineChart() {
     grid: {
       left: "8%",
       right: "3%",
-      top: "10%",
-      bottom: "12%",
+      top: "15%",
+      bottom: "13%",
     },
     xAxis: {
       type: "category",
@@ -115,13 +113,13 @@ export default function LineChart() {
   return (
     <div className="flex flex-col">
       <div className="flex justify-end">
-        <div className="flex px-2 py-1 bg-dashboardButtonBg border border-dashboardButtonBorder rounded-md">
+        <div className="flex px-2 py-1 bg-dashboardButtonBg border border-dashboardButtonBorder rounded-md mt-2">
           <select className="px-2 bg-dashboardButtonBg outline-none">
             <option>Unsatisfied Demand %</option>
           </select>
         </div>
       </div>
-      <ReactECharts option={options} />
+      <ReactECharts option={options} style={{ height: "400px" }} />
     </div>
   );
 }
