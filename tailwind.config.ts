@@ -11,6 +11,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        button: "#858882",
+        buttonBg: "#161618",
+        buttonBorder: "#525252",
+        dashboardButtonBg: "#242424",
+        dashboardButtonBorder: "#5A5A5A",
       },
     },
   },
