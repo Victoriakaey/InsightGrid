@@ -14,7 +14,7 @@ export default function Description() {
       </div>
       <div className="flex gap-3 select-none">
         {dashboardDescriptionItems.map((item) => (
-          <button
+          <div
             key={item.id}
             onClick={() => setActive(item.id)}
             className={`relative flex items-center justify-center rounded-md py-1 px-1.5
@@ -22,10 +22,10 @@ export default function Description() {
                   active === item.id
                     ? "border border-gray-400 text-gray-100"
                     : "border border-dashboardButtonBorder bg-dashboardButtonBg"
-                } font-bold hover:text-gray-200`}
+                } font-bold hover:text-gray-200 hover:cursor-pointer`}
           >
             {item.buttonItem}
-          </button>
+          </div>
         ))}
       </div>
     </div>

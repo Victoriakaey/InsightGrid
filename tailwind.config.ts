@@ -17,6 +17,7 @@ export default {
         dashboardButtonBg: "#242424",
         dashboardButtonBorder: "#5A5A5A",
         dashboardGraphText: "#AAA",
+        drawerBg: "#0E0D0D",
       },
     },
   },

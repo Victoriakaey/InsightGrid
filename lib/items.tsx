@@ -6,6 +6,7 @@ import { IoIosCloudUpload, IoMdSettings } from "react-icons/io";
 import { BsLightningFill } from "react-icons/bs";
 import { MdHistory } from "react-icons/md";
 import { LuUpload } from "react-icons/lu";
+import EditVariablesDrawer from "@/app/components/dashboard/editVariablesDrawer";
 
 export const sidebarItems = [
   { id: "menu", icon: <RxHamburgerMenu /> },
@@ -26,7 +27,7 @@ export const dashboardDescriptionItems = [
   { id: "history", buttonItem: <MdHistory className="text-2xl" /> },
   {
     id: "edit-variables",
-    buttonItem: <p className="font-light px-1">Edit Variables</p>,
+    buttonItem: <EditVariablesDrawer />,
   },
   { id: "upload", buttonItem: <LuUpload className="text-xl" /> },
 ];
