@@ -1,5 +1,5 @@
 "use client";
-import { dashboardDescriptionItems } from "@/data/items";
+import { dashboardDescriptionItems } from "@/lib/items";
 import React, { useState } from "react";
 import { BsLightningFill } from "react-icons/bs";
 

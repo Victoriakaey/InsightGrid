@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { navbarItems } from "@/data/items";
+import { navbarItems } from "@/lib/items";
 import Searchbox from "./searchbox";
 
 export default function Navbar() {

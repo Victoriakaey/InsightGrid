@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { HiSparkles } from "react-icons/hi2";
 import { BsThreeDots } from "react-icons/bs";
 import { FaChevronUp, FaChevronDown } from "react-icons/fa6";
-import { bestScenarioResultsItems } from "@/data/items";
+import { bestScenarioResultsItems } from "@/lib/items";
 
 export default function BestScenarioResults() {
   const [collapse, setCollapse] = useState<boolean>(true);

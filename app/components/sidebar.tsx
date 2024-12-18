@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { sidebarItems } from "@/data/items";
+import { sidebarItems } from "@/lib/items";
 
 export default function Sidebar() {
   const [active, setActive] = useState<string>("home");
