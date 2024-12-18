@@ -12,7 +12,6 @@ export default function EditVariablesDrawer() {
         Edit Variables
       </p>
 
-      {/* Drawer */}
       <Drawer
         isOpen={isDrawerOpen}
         onClose={() => setDrawerOpen(false)}
