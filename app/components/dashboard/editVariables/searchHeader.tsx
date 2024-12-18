@@ -4,8 +4,6 @@ import { FaSearch } from "react-icons/fa";
 import { HiSparkles } from "react-icons/hi2";
 import { FaRedo } from "react-icons/fa";
 
-// could prob make the
-
 export default function SearchHeader() {
   return (
     <div className="flex gap-4">
