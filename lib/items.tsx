@@ -92,6 +92,25 @@ export const categoryItems = [
     id: 3,
     variables: ["Variable 1", "Variable 1", "Variable 1"],
   },
+  {
+    id: 4,
+    variables: ["Carbon 1", "Co2 Distribution", "Fleet sizing"],
+  },
+  {
+    id: 5,
+    variables: [
+      "Parking Rate",
+      "Border Rate",
+      "Request rate",
+      "Variable 1",
+      "Variable 1",
+      "Variable 1",
+    ],
+  },
+  {
+    id: 6,
+    variables: ["Variable 1", "Variable 1", "Variable 1"],
+  },
 ];
 
 // hardcoded only for demo purposes, if more data, then each element from the variables list in categoryItems should have a corresponding description

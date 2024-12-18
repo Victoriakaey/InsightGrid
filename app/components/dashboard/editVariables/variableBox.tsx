@@ -14,8 +14,7 @@ export default function VariableBox(props: variableBoxProps) {
       <div className="flex justify-between px-4">
         <div className="flex gap-2.5 text-2xl">
           <p className="font-medium text-lime-400/80">
-            {" "}
-            {props.title} Variables{" "}
+            {props.title} Variables
           </p>
         </div>
         <button
