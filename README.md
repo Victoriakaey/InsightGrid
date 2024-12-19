@@ -1,4 +1,4 @@
-# Insight Grid README
+# Insight Grid
 
 ## Overview
 
