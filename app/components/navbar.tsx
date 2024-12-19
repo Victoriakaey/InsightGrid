@@ -7,7 +7,7 @@ export default function Navbar() {
   const [active, setActive] = useState<string>("charging-stations");
 
   return (
-    <div className=" flex h-[5.4rem] w-full items-center justify-between text-button px-4 select-none">
+    <div className="flex h-[5.4rem] w-full items-center justify-between text-button px-4 select-none">
       <div className="flex gap-2">
         {navbarItems.map((item) => (
           <button

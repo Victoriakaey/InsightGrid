@@ -10,7 +10,7 @@ export default function Dashboard() {
       <div className="flex flex-col gap-6 bg-buttonBg rounded-xl w-full px-9 py-3 text-gray-300 border border-buttonBorder">
         <Description />
         <BestScenarioResults />
-        <div className="flex flex-col lg:flex-row px-3 gap-8 mb-8">
+        <div className="flex flex-col xl:flex-row px-3 gap-8 mb-8">
           <Graph />
           <Indicator />
         </div>

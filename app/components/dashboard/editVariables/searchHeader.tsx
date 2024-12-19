@@ -18,7 +18,7 @@ export default function SearchHeader() {
         <HiSparkles className="mt-1" />
         <p className="font-medium">Autofill</p>
       </div>
-      <button className="flex gap-2 border text-lime-400 border-t-lime-400 border-x-lime-600 border-b-lime-800 bg-lime-800/40 rounded-lg py-2 px-7 ">
+      <button className="flex gap-2 border text-lime-400 border-t-lime-400 border-x-lime-600 border-b-lime-800 bg-lime-800/40 rounded-lg py-2 px-7 hover:bg-lime-900/30 hover:border-r-8 transition">
         <FaRedo className="mt-1" />
         <p className="font-medium">Rerun</p>
       </button>
