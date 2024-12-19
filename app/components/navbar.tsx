@@ -26,10 +26,7 @@ export default function Navbar() {
       </div>
       <div className="flex gap-3 border border-buttonBorder text-gray-300 rounded-lg w-64 py-2 px-3">
         <FaSearch className="mt-1" />
-        <input
-          placeholder="Search"
-          className="bg-black/95 outline-none"
-        ></input>
+        <input placeholder="Search" className="bg-black/0 outline-none"></input>
       </div>
     </div>
   );
