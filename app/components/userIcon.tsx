@@ -6,6 +6,7 @@ import { auth } from "@/lib/firebaseConfig";
 import { clearUser, setUser } from "@/redux/authSlice";
 import { FaUserCircle } from "react-icons/fa";
 import { RootState } from "@/redux/store";
+import Image from "next/image";
 
 export default function UserIcon() {
   const dispatch = useDispatch();
@@ -46,13 +47,7 @@ export default function UserIcon() {
   return (
     <div className="">
       {isLoggedIn && user?.photoURL ? (
-        <img
-          src={user.photoURL}
-          alt={user.displayName || "User"}
-          className="w-7 h-7 rounded-full cursor-pointer"
-          onClick={handleLogout}
-          title="Logout"
-        />
+        <Image src="path/to/image" alt="description" width={500} height={300} />
       ) : (
         <div
           className="text-2xl text-button hover:text-gray-100 cursor-pointer transition-colors"

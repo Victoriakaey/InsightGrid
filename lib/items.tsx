@@ -3,7 +3,6 @@ import { MdHome } from "react-icons/md";
 import { IoNotifications } from "react-icons/io5";
 import { GrDocumentTime } from "react-icons/gr";
 import { IoIosCloudUpload, IoMdSettings } from "react-icons/io";
-import { BsLightningFill } from "react-icons/bs";
 import { MdHistory } from "react-icons/md";
 import { LuUpload } from "react-icons/lu";
 import EditVariablesDrawer from "@/app/components/dashboard/editVariables/editVariableDrawer";

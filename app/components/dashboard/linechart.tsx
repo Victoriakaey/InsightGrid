@@ -52,7 +52,7 @@ export default function LineChart() {
           color: "#B3E237",
           width: 2,
         },
-        symbolSize: (value: number, params: any) => {
+        symbolSize: (value: number, params: { dataIndex: number }) => {
           // Highlight "now" and peak
           return params.dataIndex === nowIndex || params.dataIndex === maxIndex
             ? 9
@@ -90,7 +90,7 @@ export default function LineChart() {
         color: "#AAA",
         fontSize: 14,
       },
-      formatter: (params: any) => {
+      formatter: (params: { value: number }[]) => {
         const data = params[0];
         const value = data.value.toLocaleString();
         const percentage = "4.6% above target";
